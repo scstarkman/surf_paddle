@@ -244,7 +244,6 @@ h3 {
 
 
 footer {
-  border:2px solid black;
   background-color:#083452;
   color:#a2b2bf;
   font-family:arial;
@@ -253,7 +252,10 @@ footer {
 .footerLogo{
     display:inline-block;
 }
+.footerLogo span{
+  vertical-align:70%;
 
+}
 
 .footerNav {
   display:inline-block;
