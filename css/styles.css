@@ -1,4 +1,6 @@
 body{
+  margin:0;
+  padding:0;
   font-family:arial;
   color:gray;
   line-height:1.5em;
@@ -16,9 +18,15 @@ header {
 
   display:inline-block;
   color:black;
-
+  position:relative;
+  top:10px;
+  left:20px;
 }
 
+
+.logo span{
+    vertical-align:70%;
+}
 nav {
   display:inline-block;
   width:200px;
@@ -251,6 +259,8 @@ footer {
 }
 .footerLogo{
     display:inline-block;
+    margin-top:20px;
+    margin-left:10px
 }
 .footerLogo span{
   vertical-align:70%;
