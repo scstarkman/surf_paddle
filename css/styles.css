@@ -251,12 +251,18 @@ h3 {
 }
 
 .gallery span{
-    color:white;
+    color:#083452;
     margin-top: -25px;
-
+    position: relative;
+    left: 20;
+    bottom: 50;
+    font-size: 22;
 }
 
+.gallery span:hover{
+    color:white;
 
+}
 
 footer {
   background-color:#083452;
