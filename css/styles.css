@@ -186,9 +186,10 @@ h3 {
 .gallery {
   margin:0 auto;
 
+
 }
 .gallBox1{
-  display:inline-block;
+  float:left;
   height:350px;
   width:350px;
   background-color:#083452
@@ -203,14 +204,16 @@ h3 {
 }
 
 .gallBox2{
-  display:inline-block;
+  float:left;
   height:350px;
   width:350px;
   background-color:#083452
+
 }
 
 .gallBox2 img{
   opacity:0.4;
+
 }
 
 .gallBox2 img:hover{
@@ -218,7 +221,7 @@ h3 {
 }
 
 .gallBox3{
-  display:inline-block;
+  float:left;
   height:350px;
   width:350px;
   background-color:#083452
@@ -233,7 +236,7 @@ h3 {
 }
 
 .gallBox4{
-  display:inline-block;
+  float:left;
   height:350px;
   width:350px;
   background-color:#083452
@@ -247,7 +250,11 @@ h3 {
   opacity:1.0;
 }
 
+.gallery span{
+    color:white;
+    margin-top: -25px;
 
+}
 
 
 
@@ -256,10 +263,11 @@ footer {
   color:#a2b2bf;
   font-family:arial;
 
+
 }
 .footerLogo{
     display:inline-block;
-    margin-top:20px;
+    margin-top:40px;
     margin-left:10px
 }
 .footerLogo span{
